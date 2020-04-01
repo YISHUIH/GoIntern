@@ -1,0 +1,5 @@
+rootProject.name='GoIntern'
+include ':app'
+include ':common'
+include ':user_manager'
+include ':job_manager'

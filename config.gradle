@@ -1,0 +1,25 @@
+ext {
+    var = [
+            compileSdkVersion: 29,
+            minSdkVersion    : 16,
+            targetSdkVersion : 29,
+            buildToolsVersion: "29.0.3",
+            versionCode      : 1,
+            versionName      : "1.0.0",
+            appcompat        : "appcompat:1.1.0",
+            core             : "core-ktx:1.2.0",
+            constraintlayout : "constraintlayout:1.1.3",
+    ]
+
+    kotlin_group = [
+            kotlin_stdlib_jdk7: "kotlin-stdlib-jdk7:1.3.61",
+            kotlin_plugin     : "kotlin-gradle-plugin:1.3.61"
+    ]
+
+    isModule = [
+            user_manager_ismodule: true,
+            job_manager_ismodule: true
+    ]
+
+
+}
